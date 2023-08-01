@@ -474,7 +474,10 @@ ul {
     position: relative; 
     overflow: hidden;
 }
-.opportunities-cover-wrap:hover .opportunities-cover-text, .opportunities-cover-wrap:focus .opportunities-cover-text {
+.opportunities-cover-wrap:hover .opportunities-cover-text {
+    transform: translateY(0);
+}
+.opportunities-cover-wrap:focus .opportunities-cover-text {
     transform: translateY(0);
 }
 
