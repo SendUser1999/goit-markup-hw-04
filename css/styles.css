@@ -281,7 +281,9 @@ ul {
 .team-icons-list {
     display: flex;
     justify-content: center;
-    gap: 16px;
+}
+.team-icons-list {
+    gap: 24px;
 }
 .team-icons-links {
     fill:none;
@@ -293,6 +295,7 @@ ul {
     align-items: center;
     justify-content: center;
     margin-top: 12px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icons-links:hover, .team-icons-links:focus {
     background-color: #404bbf;
@@ -300,7 +303,6 @@ ul {
 .team-icons-item {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icons {
     fill: #f4f4fd;
@@ -432,9 +434,6 @@ ul {
     padding: 32px 16px;
     border-top: none;
 }
-.options-item {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-}
 
 .options-item-btn {
     color: #4D5AE5;
@@ -448,6 +447,7 @@ ul {
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
     border-radius: 4px; 
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .options-item-btn:hover, .options-item-btn:focus{ 
@@ -499,7 +499,11 @@ ul {
     background-color: var(--main-color);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.item-card:hover, .item-card:focus {
+.item-card:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
+}
+.item-card:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transform: translateY(0%);
 }
