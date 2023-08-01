@@ -474,10 +474,12 @@ ul {
     position: relative; 
     overflow: hidden;
 }
-.opportunities-cover-text:hover {
+
+.opportunities-cover-wrap:focus .opportunities-cover-text {
     transform: translateY(0);
 }
-.opportunities-cover-text:focus {
+
+.opportunities-cover-wrap:hover .opportunities-cover-text {
     transform: translateY(0);
 }
 
