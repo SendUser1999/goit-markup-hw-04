@@ -512,11 +512,11 @@ ul {
 }
 
 .item-card:hover .opportunities-cover-text {
-    transform: translateY(0%);
+    transform: translateY(0);
 }
 
 .item-card:focus .opportunities-cover-text {
-    transform: translateY(0%);
+    transform: translateY(0);
 }
 
 .item-text {
