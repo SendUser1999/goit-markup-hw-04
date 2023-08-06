@@ -120,6 +120,7 @@ ul {
 
 .main-part {
     background-color: var(--second-color);
+    margin: 0 auto;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background.jpeg);
     background-repeat: no-repeat;
@@ -326,9 +327,8 @@ ul {
 .customers-item {
     width: calc((100% - 5 * 24px)/6);
     height: 88px;
-    margin-top: 72px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
 .item-customer-icon {
     width: 100%;
     height: 100%;
